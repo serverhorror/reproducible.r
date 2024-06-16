@@ -11,24 +11,7 @@
     You will see output similar to this:
 
     ```text
-    R version 4.4.0 (2024-04-24) -- "Puppy Cup"
-    Copyright (C) 2024 The R Foundation for Statistical Computing
-    Platform: x86_64-pc-linux-gnu
-
-    R is free software and comes with ABSOLUTELY NO WARRANTY.
-    You are welcome to redistribute it under certain conditions.
-    Type 'license()' or 'licence()' for distribution details.
-
-    Natural language support but running in an English locale
-
-    R is a collaborative project with many contributors.
-    Type 'contributors()' for more information and
-    'citation()' on how to cite R or R packages in publications.
-
-    Type 'demo()' for some demos, 'help()' for on-line help, or
-    'help.start()' for an HTML browser interface to help.
-    Type 'q()' to quit R.
-
+    # [ ... skipped for brevity ... ]
     > install.packages("renv")
     Installing package into ‘/usr/local/lib/R/site-library’
     (as ‘lib’ is unspecified)
@@ -88,24 +71,7 @@
     ```
 
     ```text
-    R version 4.4.0 (2024-04-24) -- "Puppy Cup"
-    Copyright (C) 2024 The R Foundation for Statistical Computing
-    Platform: x86_64-pc-linux-gnu
-
-    R is free software and comes with ABSOLUTELY NO WARRANTY.
-    You are welcome to redistribute it under certain conditions.
-    Type 'license()' or 'licence()' for distribution details.
-
-    Natural language support but running in an English locale
-
-    R is a collaborative project with many contributors.
-    Type 'contributors()' for more information and
-    'citation()' on how to cite R or R packages in publications.
-
-    Type 'demo()' for some demos, 'help()' for on-line help, or
-    'help.start()' for an HTML browser interface to help.
-    Type 'q()' to quit R.
-
+    # [ ... skipped for brevity ... ]
     > renv::init()
     - Linking packages into the project library ... Done!
     - Resolving missing dependencies ... 
@@ -131,6 +97,31 @@
 
     - Lockfile written to "/workspaces/reproducible.r/renv.lock".
     - Project '/workspaces/reproducible.r' loaded. [renv 1.0.7]
+    > 
+    > 
+    ```
+
+* You'll end up with a few more files:
+
+    * `.Rprofile`
+    * `renv.lock`
+    * `.gitignore` - if it wasn't there before
+    * `activate.R`
+    * `settings.json`
+
+* Make sure we are up-to-date
+
+    ```shell
+    R -e 'renv::restore()'
+    ```
+
+    Pay attention to `The library is already synchronized with the lockfile.`
+
+    ```text
+    # [ ... skipped for brevity ... ]
+    - Project '/workspaces/reproducible.r' loaded. [renv 1.0.7]
+    > renv::restore()
+    - The library is already synchronized with the lockfile.
     > 
     > 
     ```
