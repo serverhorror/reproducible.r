@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "reditorsupport.r",
+        "rdebugger.r-debugger",
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "ms-vsliveshare.vsliveshare",
+        "ms-vscode-remote.vscode-remote-extensionpack"
+    ]
+}
