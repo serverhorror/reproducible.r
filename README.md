@@ -198,6 +198,9 @@
 
     ```shell-session
     R -e 'install.packages("rmarkdown")'
+    ```
+
+    ```text
     # [ ... skipped for brevity ... ]
     - Project '/workspaces/reproducible.r' loaded. [renv 1.0.7]
     - The project is out-of-sync -- use `renv::status()` for details.
@@ -282,7 +285,9 @@
 
     ```shell-session
     R -e 'renv::snapshot()'
+    ```
 
+    ```text
     # [ ... skipped for brevity ... ]
 
     - Project '/workspaces/reproducible.r' loaded. [renv 1.0.7]
