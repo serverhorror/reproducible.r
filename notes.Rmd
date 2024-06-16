@@ -1,0 +1,6 @@
+# ::: notes
+
+
+```{r}
+source("script.R")
+```
