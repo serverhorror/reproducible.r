@@ -199,6 +199,85 @@
     ```shell-session
     R -e 'install.packages("rmarkdown")'
     # [ ... skipped for brevity ... ]
+    - Project '/workspaces/reproducible.r' loaded. [renv 1.0.7]
+    - The project is out-of-sync -- use `renv::status()` for details.
+    > install.packages("rmarkdown")
+    # Downloading packages -------------------------------------------------------
+    - Downloading rmarkdown from CRAN ...           OK [2.5 Mb in 1.6s]
+    - Downloading bslib from CRAN ...               OK [5.1 Mb in 1.8s]
+    - Downloading base64enc from CRAN ...           OK [25.9 Kb in 0.89s]
+    - Downloading cachem from CRAN ...              OK [65.9 Kb in 1.1s]
+    - Downloading fastmap from CRAN ...             OK [61.7 Kb in 1.4s]
+    - Downloading htmltools from CRAN ...           OK [347.3 Kb in 1.2s]
+    - Downloading digest from CRAN ...              OK [214.5 Kb in 0.89s]
+    - Downloading jquerylib from CRAN ...           OK [514.5 Kb in 1.2s]
+    - Downloading jsonlite from CRAN ...            OK [1 Mb in 1.2s]
+    - Downloading memoise from CRAN ...             OK [47.6 Kb in 1.2s]
+    - Downloading mime from CRAN ...                OK [32.4 Kb in 0.89s]
+    - Downloading sass from CRAN ...                OK [2.3 Mb in 1.4s]
+    - Downloading fs from CRAN ...                  OK [302.3 Kb in 1.2s]
+    - Downloading R6 from CRAN ...                  OK [81.3 Kb in 0.94s]
+    - Downloading rappdirs from CRAN ...            OK [44.2 Kb in 1.2s]
+    - Downloading evaluate from CRAN ...            OK [83 Kb in 1.2s]
+    - Downloading fontawesome from CRAN ...         OK [1.3 Mb in 1.4s]
+    - Downloading knitr from CRAN ...               OK [1.1 Mb in 1.3s]
+    - Downloading highr from CRAN ...               OK [36.7 Kb in 1.1s]
+    - Downloading xfun from CRAN ...                OK [513.3 Kb in 1.2s]
+    - Downloading yaml from CRAN ...                OK [112.4 Kb in 8.3s]
+    - Downloading tinytex from CRAN ...             OK [137.3 Kb in 1.2s]
+    Successfully downloaded 22 packages in 36 seconds.
+
+    The following package(s) will be installed:
+    - base64enc   [0.1-3]
+    - bslib       [0.7.0]
+    - cachem      [1.1.0]
+    - digest      [0.6.35]
+    - evaluate    [0.24.0]
+    - fastmap     [1.2.0]
+    - fontawesome [0.5.2]
+    - fs          [1.6.4]
+    - highr       [0.11]
+    - htmltools   [0.5.8.1]
+    - jquerylib   [0.1.4]
+    - jsonlite    [1.8.8]
+    - knitr       [1.47]
+    - memoise     [2.0.1]
+    - mime        [0.12]
+    - R6          [2.5.1]
+    - rappdirs    [0.3.3]
+    - rmarkdown   [2.27]
+    - sass        [0.4.9]
+    - tinytex     [0.51]
+    - xfun        [0.44]
+    - yaml        [2.3.8]
+    These packages will be installed into "/workspaces/reproducible.r/renv/library/linux-ubuntu-jammy/R-4.4/x86_64-pc-linux-gnu".
+
+    # Installing packages --------------------------------------------------------
+    - Installing base64enc ...                      OK [installed binary and cached in 1.1s]
+    - Installing fastmap ...                        OK [installed binary and cached in 0.99s]
+    - Installing cachem ...                         OK [installed binary and cached in 1.6s]
+    - Installing digest ...                         OK [installed binary and cached in 1.2s]
+    - Installing htmltools ...                      OK [installed binary and cached in 1.8s]
+    - Installing jquerylib ...                      OK [installed binary and cached in 1.9s]
+    - Installing jsonlite ...                       OK [installed binary and cached in 1.2s]
+    - Installing memoise ...                        OK [installed binary and cached in 1.7s]
+    - Installing mime ...                           OK [installed binary and cached in 0.98s]
+    - Installing fs ...                             OK [installed binary and cached in 1.2s]
+    - Installing R6 ...                             OK [installed binary and cached in 1.0s]
+    - Installing rappdirs ...                       OK [installed binary and cached in 1.0s]
+    - Installing sass ...                           OK [installed binary and cached in 2.5s]
+    - Installing bslib ...                          OK [installed binary and cached in 10s]
+    - Installing evaluate ...                       OK [installed binary and cached in 1.0s]
+    - Installing fontawesome ...                    OK [installed binary and cached in 1.9s]
+    - Installing xfun ...                           OK [installed binary and cached in 1.2s]
+    - Installing highr ...                          OK [installed binary and cached in 1.0s]
+    - Installing yaml ...                           OK [installed binary and cached in 1.2s]
+    - Installing knitr ...                          OK [installed binary and cached in 2.3s]
+    - Installing tinytex ...                        OK [installed binary and cached in 1.1s]
+    - Installing rmarkdown ...                      OK [installed binary and cached in 4.3s]
+    Successfully installed 22 packages in 1.3 minutes.
+    > 
+    > 
     ```
 
     ```shell-session
